@@ -1,9 +1,19 @@
 <script setup>
+import Header from './components/Header.vue';
+
+
 </script>
 
 <template>
-  <router-view></router-view>
-
+  <div class="wrapper">
+    <Header />
+    <router-view></router-view>
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped lang='scss'>
+.wrapper {
+  background-color: vars.$background;
+  position: relative;
+}
+</style>
