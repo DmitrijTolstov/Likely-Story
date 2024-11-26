@@ -1,5 +1,5 @@
-@use '@/assets/styles/fonts.scss';
-@use '@/assets/styles/vars.scss';
-@use '@/assets/styles/typography.scss';
-@use '@/assets/styles/mixins.scss';
-@use '@/assets/styles/reset.scss';
+@forward '@/assets/styles/reset.scss';
+@forward '@/assets/styles/vars.scss';
+@forward '@/assets/styles/mixins.scss';
+@forward '@/assets/styles/fonts.scss';
+@forward '@/assets/styles/typography.scss';

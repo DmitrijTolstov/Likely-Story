@@ -1,5 +1,13 @@
+@use '@/assets/styles/vars';
+
+html {
+	font-size: 62.5%;
+}
+
 body {
 	font-family: 'Lacquer';
+	font-size: 1.6rem;
+	color: vars.$white;
 }
 
 h1,
@@ -10,4 +18,9 @@ h5,
 h6,
 p {
 	font-family: 'Maamli';
+}
+
+.container {
+	width: 100%;
+	padding-inline: 3rem;
 }
