@@ -1,10 +1,13 @@
 <script setup>
+import Hero from '@/components/Hero.vue';
+
+
 </script>
 <template>
-	<h1>hello vue</h1>
+	<section class="home">
+		<Hero />
+	</section>
 </template>
 <style scoped lang='scss'>
-h1 {
-	font-size: 40px;
-}
+.home {}
 </style>
