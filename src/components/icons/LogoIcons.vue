@@ -1,8 +1,7 @@
 <script setup>
 </script>
 <template>
-	<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="99.081" height="60.632"
-		viewBox="0 0 99.081 60.632">
+	<svg id="Layer_2" data-name="Layer 2" width="99.081" height="60.632" viewBox="0 0 99.081 60.632">
 		<g id="Layer_1" data-name="Layer 1">
 			<path id="Path_9175" data-name="Path 9175"
 				d="M15.944,33.987,9.339,35.445,7.653,25.07,0,27.587,2.278,41.435l14.5-2.517Z"
