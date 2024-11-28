@@ -1,13 +1,17 @@
 <script setup>
-import Hero from '@/components/Hero.vue';
-
+import Footer from '@/components/Footer.vue';
+import Header from '@/components/Header.vue';
+import Hero from '@/views/Hero.vue';
+import MainContent from '@/components/MainContent.vue';
+import Cursor from '@/components/Cursor.vue';
 
 </script>
+
 <template>
-	<section class="home">
-		<Hero />
-	</section>
+	<Header />
+	<Hero />
+	<MainContent />
+	<Footer />
+	<Cursor />
 </template>
-<style scoped lang='scss'>
-.home {}
-</style>
+<style scoped lang='scss'></style>
